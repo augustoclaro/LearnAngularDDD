@@ -1,0 +1,13 @@
+D:\Projetos\LearnAngular\LearnAngular.Application\bin\Debug\LearnAngular.Application.dll
+D:\Projetos\LearnAngular\LearnAngular.Application\bin\Debug\LearnAngular.Application.pdb
+D:\Projetos\LearnAngular\LearnAngular.Application\bin\Debug\LearnAngular.Domain.dll
+D:\Projetos\LearnAngular\LearnAngular.Application\bin\Debug\LearnAngular.Services.dll
+D:\Projetos\LearnAngular\LearnAngular.Application\bin\Debug\LearnAngular.Data.dll
+D:\Projetos\LearnAngular\LearnAngular.Application\bin\Debug\EntityFramework.dll
+D:\Projetos\LearnAngular\LearnAngular.Application\bin\Debug\LearnAngular.Domain.pdb
+D:\Projetos\LearnAngular\LearnAngular.Application\bin\Debug\LearnAngular.Services.pdb
+D:\Projetos\LearnAngular\LearnAngular.Application\bin\Debug\LearnAngular.Data.pdb
+D:\Projetos\LearnAngular\LearnAngular.Application\bin\Debug\EntityFramework.xml
+D:\Projetos\LearnAngular\LearnAngular.Application\obj\Debug\LearnAngular.Application.csprojResolveAssemblyReference.cache
+D:\Projetos\LearnAngular\LearnAngular.Application\obj\Debug\LearnAngular.Application.dll
+D:\Projetos\LearnAngular\LearnAngular.Application\obj\Debug\LearnAngular.Application.pdb

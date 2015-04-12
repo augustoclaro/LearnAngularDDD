@@ -1,0 +1,13 @@
+﻿<div class="center-block" style="width:400px;">
+    <form class="form-login" role="form">
+        <h2 class="form-login-heading">Cadastro</h2>
+        <input ng-keyup="$event.keyCode == 13 && signUp()" type="text" class="form-control" placeholder="Nome" data-ng-model="registration.NomeUsuario" required autofocus>
+        <input ng-keyup="$event.keyCode == 13 && signUp()" type="text" class="form-control" placeholder="Usuário" data-ng-model="registration.Login" required>
+        <input ng-keyup="$event.keyCode == 13 && signUp()" type="password" class="form-control" placeholder="Senha" data-ng-model="registration.Senha" required>
+        <input ng-keyup="$event.keyCode == 13 && signUp()" type="password" class="form-control" placeholder="Confirmar Senha" data-ng-model="registration.ConfirmarSenha" required>
+        <button ng-disabled="registration.NomeUsuario == '' || registration.Login == '' || registration.Senha == '' || registration.ConfirmarSenha != registration.Senha" class="btn btn-lg btn-info btn-block" type="submit" data-ng-click="signUp()">Submit</button>
+        <div data-ng-hide="message == ''" data-ng-class="(savedSuccessfully) ? 'alert alert-success' : 'alert alert-danger'">
+            {{message}}
+        </div>
+    </form>
+</div>

@@ -1,0 +1,14 @@
+D:\Projetos\LearnAngular\LearnAngular.Services\obj\Debug\LearnAngular.Services.csprojResolveAssemblyReference.cache
+D:\Projetos\LearnAngular\LearnAngular.Services\bin\Debug\LearnAngular.Services.dll.config
+D:\Projetos\LearnAngular\LearnAngular.Services\bin\Debug\LearnAngular.Services.dll
+D:\Projetos\LearnAngular\LearnAngular.Services\bin\Debug\LearnAngular.Services.pdb
+D:\Projetos\LearnAngular\LearnAngular.Services\bin\Debug\EntityFramework.dll
+D:\Projetos\LearnAngular\LearnAngular.Services\bin\Debug\EntityFramework.SqlServer.dll
+D:\Projetos\LearnAngular\LearnAngular.Services\bin\Debug\LearnAngular.Data.dll
+D:\Projetos\LearnAngular\LearnAngular.Services\bin\Debug\LearnAngular.Domain.dll
+D:\Projetos\LearnAngular\LearnAngular.Services\bin\Debug\LearnAngular.Data.pdb
+D:\Projetos\LearnAngular\LearnAngular.Services\bin\Debug\LearnAngular.Domain.pdb
+D:\Projetos\LearnAngular\LearnAngular.Services\bin\Debug\EntityFramework.xml
+D:\Projetos\LearnAngular\LearnAngular.Services\bin\Debug\EntityFramework.SqlServer.xml
+D:\Projetos\LearnAngular\LearnAngular.Services\obj\Debug\LearnAngular.Services.dll
+D:\Projetos\LearnAngular\LearnAngular.Services\obj\Debug\LearnAngular.Services.pdb

@@ -1,0 +1,12 @@
+D:\Projetos\LearnAngular\LearnAngular.Data\bin\Debug\LearnAngular.Data.dll.config
+D:\Projetos\LearnAngular\LearnAngular.Data\bin\Debug\LearnAngular.Data.dll
+D:\Projetos\LearnAngular\LearnAngular.Data\bin\Debug\LearnAngular.Data.pdb
+D:\Projetos\LearnAngular\LearnAngular.Data\bin\Debug\EntityFramework.dll
+D:\Projetos\LearnAngular\LearnAngular.Data\bin\Debug\EntityFramework.SqlServer.dll
+D:\Projetos\LearnAngular\LearnAngular.Data\bin\Debug\EntityFramework.xml
+D:\Projetos\LearnAngular\LearnAngular.Data\bin\Debug\EntityFramework.SqlServer.xml
+D:\Projetos\LearnAngular\LearnAngular.Data\obj\Debug\LearnAngular.Data.csprojResolveAssemblyReference.cache
+D:\Projetos\LearnAngular\LearnAngular.Data\obj\Debug\LearnAngular.Data.dll
+D:\Projetos\LearnAngular\LearnAngular.Data\obj\Debug\LearnAngular.Data.pdb
+D:\Projetos\LearnAngular\LearnAngular.Data\bin\Debug\LearnAngular.Domain.dll
+D:\Projetos\LearnAngular\LearnAngular.Data\bin\Debug\LearnAngular.Domain.pdb

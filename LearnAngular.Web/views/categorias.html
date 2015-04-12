@@ -1,0 +1,52 @@
+﻿<div class="row">
+    <div class="col-md-1">
+        <button type="button" class="btn btn-primary" ng-click="novo()"><i class="glyphicon glyphicon-plus"></i></button>
+    </div>
+    <div class="col-md-6">
+        <div class="input-group">
+            <span class="input-group-btn">
+                <button class="btn btn-default" type="button" onclick="$('#txtBusca').focus()"><i class="glyphicon glyphicon-search"></i></button>
+            </span>
+            <input type="text" class="form-control" placeholder="Buscar" id="txtBusca" ng-model="search">
+        </div>
+    </div>
+</div>
+<br />
+<table class="table table-bordered">
+    <tr>
+        <th>Categoria</th>
+        <th width="20%">Ações</th>
+    </tr>
+    <tr ng-repeat="c in categorias | filter:search">
+        <td>{{c.nomeCategoria}}</td>
+        <td>
+            <button type="button" title="Excluir" class="btn btn-danger" ng-click="delete(c.idCategoria)"><i class="glyphicon glyphicon-trash"></i></button>
+            <button type="button" title="Alterar" class="btn btn-primary" ng-click="alter(c)"><i class="glyphicon glyphicon-pencil"></i></button>
+            <button type="button" title="Ver Contatos" class="btn btn-success" ng-click="listContacts(c)"><i class="glyphicon glyphicon-list"></i></button>
+        </td>
+    </tr>
+</table>
+<!-- Modal -->
+<div class="modal fade" id="modalCategoria" tabindex="-1" role="dialog" aria-labelledby="modalCategoriaLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <h4 class="modal-title" id="modalCategoriaLabel">{{formData.IdCategoria == "" ? "Criar" : "Alterar"}} Categoria</h4>
+            </div>
+            <div class="modal-body">
+                <form>
+                    <div class="form-group">
+                        <label>Nome</label>
+                        <input type="hidden" data-ng-model="formData.IdCategoria" />
+                        <input ng-keyup="$event.keyCode == 13 && salvarDados()" type="text" class="form-control" placeholder="Nome" data-ng-model="formData.NomeCategoria">
+                    </div>
+                </form>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Cancelar</button>
+                <button ng-disabled="formData.NomeCategoria == ''" type="submit" class="btn btn-primary" ng-click="salvarDados()">Salvar</button>
+            </div>
+        </div>
+    </div>
+</div>

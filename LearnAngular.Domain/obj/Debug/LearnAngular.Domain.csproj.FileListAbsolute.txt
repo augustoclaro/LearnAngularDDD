@@ -1,0 +1,4 @@
+D:\Projetos\LearnAngular\LearnAngular.Domain\bin\Debug\LearnAngular.Domain.dll
+D:\Projetos\LearnAngular\LearnAngular.Domain\bin\Debug\LearnAngular.Domain.pdb
+D:\Projetos\LearnAngular\LearnAngular.Domain\obj\Debug\LearnAngular.Domain.dll
+D:\Projetos\LearnAngular\LearnAngular.Domain\obj\Debug\LearnAngular.Domain.pdb
