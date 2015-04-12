@@ -1,5 +1,5 @@
 ﻿'use strict';
-app.factory('authService', ['$http', '$q', '$localStorage', 'md5', function ($http, $q, $localStorage, $md5) {
+app.factory('authService', ['$http', '$q', 'storageService', 'md5', function ($http, $q, storageService, $md5) {
 
     var serviceBase = 'http://localhost:55164/';
     var authServiceFactory = {};
@@ -28,7 +28,7 @@ app.factory('authService', ['$http', '$q', '$localStorage', 'md5', function ($ht
 
         $http.post(serviceBase + 'api/security/token', data, { headers: { 'Content-Type': 'application/x-www-form-urlencoded' } }).success(function (response) {
 
-            $localStorage.authorizationData = { token: response.access_token, userName: loginData.userName };
+            storageService.set('authorizationData', { token: response.access_token, userName: loginData.userName });
 
             _authentication.isAuth = true;
             _authentication.userName = loginData.userName;
@@ -46,7 +46,7 @@ app.factory('authService', ['$http', '$q', '$localStorage', 'md5', function ($ht
 
     var _logOut = function () {
 
-        delete $localStorage.authorizationData;
+        delete storageService.get('authorizationData');
 
         _authentication.isAuth = false;
         _authentication.userName = "";
@@ -55,7 +55,7 @@ app.factory('authService', ['$http', '$q', '$localStorage', 'md5', function ($ht
 
     var _fillAuthData = function () {
 
-        var authData = $localStorage.authorizationData;
+        var authData = storageService.get('authorizationData');
         if (authData) {
             _authentication.isAuth = true;
             _authentication.userName = authData.userName;

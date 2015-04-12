@@ -1,5 +1,5 @@
 ﻿'use strict';
-app.factory('authInterceptorService', ['$q', '$location', '$localStorage', function ($q, $location, $localStorage) {
+app.factory('authInterceptorService', ['$q', '$location', 'storageService', function ($q, $location, storageService) {
  
     var authInterceptorServiceFactory = {};
  
@@ -7,7 +7,7 @@ app.factory('authInterceptorService', ['$q', '$location', '$localStorage', funct
  
         config.headers = config.headers || {};
  
-        var authData = $localStorage.authorizationData;
+        var authData = storageService.get('authorizationData');
         if (authData) {
             config.headers.Authorization = 'Bearer ' + authData.token;
         }

@@ -2,7 +2,7 @@
 app.factory('storageService', ['$localStorage', '$sessionStorage', function ($localStorage, $sessionStorage) {
 
     var storageServiceFactory = {};
-    var mode = 'session';
+    var mode = 'local';
 
     var _setMode = function (_mode) {
         mode = _mode;
@@ -10,9 +10,9 @@ app.factory('storageService', ['$localStorage', '$sessionStorage', function ($lo
 
     var _get = function (k) {
         if (mode === 'session')
-            return $sessionStorage[k];
+            return eval("$sessionStorage." + k);
         else if (mode === 'local')
-            return $localStorage[k];
+            return eval("$localStorage." + k);;
     }
 
     var _set = function (k, v) {

@@ -4,3 +4,9 @@ D:\Projetos\LearnAngular\LearnAngular.Web\bin\LearnAngular.Web.pdb
 D:\Projetos\LearnAngular\LearnAngular.Web\obj\Debug\LearnAngular.Web.dll
 D:\Projetos\LearnAngular\LearnAngular.Web\obj\Debug\LearnAngular.Web.pdb
 D:\Projetos\LearnAngular\LearnAngular.Web\obj\Debug\LearnAngular.Web.csprojResolveAssemblyReference.cache
+D:\Projetos\LearnAngularDDD\LearnAngular.Web\bin\LearnAngular.Web.dll.config
+D:\Projetos\LearnAngularDDD\LearnAngular.Web\bin\LearnAngular.Web.dll
+D:\Projetos\LearnAngularDDD\LearnAngular.Web\bin\LearnAngular.Web.pdb
+D:\Projetos\LearnAngularDDD\LearnAngular.Web\obj\Debug\LearnAngular.Web.csprojResolveAssemblyReference.cache
+D:\Projetos\LearnAngularDDD\LearnAngular.Web\obj\Debug\LearnAngular.Web.dll
+D:\Projetos\LearnAngularDDD\LearnAngular.Web\obj\Debug\LearnAngular.Web.pdb
