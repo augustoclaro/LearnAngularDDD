@@ -46,7 +46,7 @@ app.factory('authService', ['$http', '$q', 'storageService', 'md5', function ($h
 
     var _logOut = function () {
 
-        delete storageService.get('authorizationData');
+        storageService.delete('authorizationData');
 
         _authentication.isAuth = false;
         _authentication.userName = "";

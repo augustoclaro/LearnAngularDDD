@@ -22,9 +22,17 @@ app.factory('storageService', ['$localStorage', '$sessionStorage', function ($lo
             $localStorage[k] = v;
     }
 
+    var _delete = function (k, v) {
+        if (mode === 'session')
+            eval("delete $sessionStorage." + k + ";");
+        else if (mode === 'local')
+            eval("delete $localStorage." + k + ";");
+    }
+
     storageServiceFactory.setMode = _setMode;
     storageServiceFactory.get = _get;
     storageServiceFactory.set = _set;
+    storageServiceFactory.delete = _delete;
 
     return storageServiceFactory;
 
