@@ -11,12 +11,10 @@ app.controller('loginController', ['$scope', '$location', 'authService', functio
     $scope.login = function () {
 
         authService.login($scope.loginData).then(function (response) {
-
             $location.path('/contatos');
-
         },
          function (err) {
-             $scope.message = err.error_description;
+             $scope.message = "Ocorreu algum erro ao autenticar.";
          });
     };
 
